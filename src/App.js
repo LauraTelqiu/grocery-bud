@@ -1,10 +1,12 @@
-import React from 'react'
+import { useState } from 'react'
+import Form from './Form'
 
 const App = () => {
+  const [itmes, setItems] = useState([])
   return (
-    <div>
-      Hello World
-    </div>
+    <section className='section-center'>
+      <Form />
+    </section>
   )
 }
 
