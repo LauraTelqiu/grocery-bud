@@ -1,4 +1,4 @@
-import { useState } from "react";
+// import { useState } from "react";
 
 const SingleItem = ({ item, removeItem, editItem }) => {
   // const [isChecked, setIsChecked] = useState(item.completed);
